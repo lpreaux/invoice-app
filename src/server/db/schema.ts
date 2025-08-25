@@ -1,7 +1,6 @@
 // Example model schema from the Drizzle docs
 // https://orm.drizzle.team/docs/sql-schema-declaration
 
-import { sql } from "drizzle-orm";
 import {
   bigint,
   text,
@@ -21,15 +20,4 @@ export const createTable = singlestoreTableCreator(
   (name) => `INVOICE_APP_${name}`,
 );
 
-export const posts = createTable(
-  "post",
-  {
-    id: bigint({ mode: "number", unsigned: true }).primaryKey(),
-    name: text(),
-    createdAt: timestamp()
-      .defaultNow()
-      .notNull(),
-    updatedAt: timestamp().$onUpdate(() => new Date()),
-  },
-  (t) => [index("name_idx").on(t.name)],
-);
+
