@@ -4,9 +4,14 @@ import { env } from "~/env";
 
 export default {
   schema: "./src/server/db/schema.ts",
-  dialect: "sqlite",
+  dialect: "singlestore",
+  tablesFilter: ["INVOICE_APP_*"],
   dbCredentials: {
-    url: env.DATABASE_URL,
+    host: env.SINGLESTORE_HOST,
+    port: parseInt(env.SINGLESTORE_PORT),
+    user: env.SINGLESTORE_USER,
+    password: env.SINGLESTORE_PASSWORD,
+    database: env.SINGLESTORE_DATABASE,
+    ssl: {},
   },
-  tablesFilter: ["invoice-app_*"],
 } satisfies Config;
