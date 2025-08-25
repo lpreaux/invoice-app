@@ -111,7 +111,7 @@ const jsonInvoiceSchema = z.object({
   ),
 });
 
-type JsonInvoice = z.infer<typeof jsonInvoiceSchema>;
+// type JsonInvoice = z.infer<typeof jsonInvoiceSchema>;
 
 export const invoicesRouter = createTRPCRouter({
   // Create a new invoice with addresses and items

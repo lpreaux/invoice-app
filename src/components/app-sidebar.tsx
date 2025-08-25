@@ -25,15 +25,13 @@ export default function AppSidebar() {
         </div>
       </SidebarHeader>
       <SidebarContent />
-      <SidebarFooter
-        className={cn("items-center gap-6", isMobile ? "mr-6" : "mb-6")}
-      >
+      <SidebarFooter className={cn("items-center gap-6", isMobile ? "mr-6" : "mb-6")}>
         <Image
           src="/icon-moon.svg"
           alt="dark mode"
           width={20}
           height={20}
-          className="cursor-pointer text-sidebar-foreground"
+          className="text-sidebar-foreground cursor-pointer"
         ></Image>
         <SidebarSeparator />
         <div className={"overflow-hidden rounded-full"}>
