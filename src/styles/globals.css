@@ -94,12 +94,12 @@
 
     /* Sidebar */
     --sidebar: hsla(233, 30%, 21%, 1);
-    --sidebar-foreground: oklch(0.145 0.031 233);
+    --sidebar-foreground: hsla(231, 36%, 63%, 1);
     --sidebar-primary: oklch(0.572 0.194 267);
     --sidebar-primary-foreground: oklch(0.98 0.005 240);
     --sidebar-accent: oklch(0.923 0.035 240);
     --sidebar-accent-foreground: oklch(0.145 0.031 233);
-    --sidebar-border: oklch(0.769 0.12 267);
+    --sidebar-border: hsla(231, 20%, 36%, 1);
     --sidebar-ring: oklch(0.572 0.194 267);
 }
 

@@ -33,7 +33,7 @@ export default function AppSidebar() {
           alt="dark mode"
           width={20}
           height={20}
-          className="cursor-pointer"
+          className="cursor-pointer text-sidebar-foreground"
         ></Image>
         <SidebarSeparator />
         <div className={"overflow-hidden rounded-full"}>
