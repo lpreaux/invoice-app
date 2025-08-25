@@ -9,7 +9,7 @@ import { Button } from "~/components/ui/button";
 
 export default function Invoices() {
   return (
-    <>
+    <main className={"w-full min-h-screen"}>
       <header className={"mx-6 my-8 flex items-center gap-4"}>
         <div className={"mr-auto"}>
           <h1 className={"mb-1 text-2xl font-bold tracking-tight"}>Invoices</h1>
@@ -43,6 +43,6 @@ export default function Invoices() {
           </p>
         </div>
       </div>
-    </>
+    </main>
   );
 }
