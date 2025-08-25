@@ -9,7 +9,7 @@ import { Button } from "~/components/ui/button";
 
 export default function Invoices() {
   return (
-    <main className={"w-full min-h-screen"}>
+    <main className={"min-h-screen w-full"}>
       <header className={"mx-6 my-8 flex items-center gap-4"}>
         <div className={"mr-auto"}>
           <h1 className={"mb-1 text-2xl font-bold tracking-tight"}>Invoices</h1>
@@ -33,16 +33,6 @@ export default function Invoices() {
           New
         </Button>
       </header>
-
-      <div className={"mx-auto mt-15 flex w-58 flex-col items-center gap-10 text-center"}>
-        <Image src="/illustration-empty.svg" alt="" width={200} height={160} />
-        <div>
-          <p className={"mb-6 text-2xl font-bold tracking-tight"}>There is nothing here</p>
-          <p className={"text-muted-foreground"}>
-            Create an invoice by clicking the <strong>New</strong> button and get started
-          </p>
-        </div>
-      </div>
     </main>
   );
 }
