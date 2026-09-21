@@ -21,9 +21,10 @@ La connexion entre l'interface et ces procédures, les formulaires de facture et
 ## Liens
 
 - [Dépôt GitHub](https://github.com/lpreaux/invoice-app)
+- [Démo Netlify du prototype](https://lpx-invoice-app.netlify.app/invoices)
 - [Challenge Frontend Mentor](https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl)
 
-La démo publique sera ajoutée ici lorsque le parcours CRUD sera complet. Pour l'instant, le projet se teste localement.
+La démo reflète l'état actuel du prototype ; le parcours CRUD reste à terminer.
 
 ## Stack
 
@@ -61,4 +62,4 @@ pnpm build
 - créer les formulaires d'ajout et d'édition avec leurs validations ;
 - implémenter les changements de statut et la suppression ;
 - terminer le thème clair/sombre ;
-- déployer la démo et renseigner le lien Frontend Mentor.
+- terminer le parcours CRUD avant de présenter le challenge comme finalisé.
