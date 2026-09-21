@@ -6,6 +6,7 @@ import {
 } from "~/components/ui/dropdown-menu";
 import Image from "next/image";
 import { Button } from "~/components/ui/button";
+import InvoicesList from "./_components/invoices-list";
 
 export default function Invoices() {
   return (
@@ -33,6 +34,7 @@ export default function Invoices() {
           New
         </Button>
       </header>
+      <InvoicesList />
     </main>
   );
 }
